@@ -1,0 +1,1 @@
+we usaed 2 pointer approach for tracking both value at same tijme and also Used 2 pointer approach for reducing time complexity n^2 to n
