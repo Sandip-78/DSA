@@ -1,0 +1,1 @@
+Today i learn about Binary Search , which gives time complexity log n which is good time complexity and in the optimization section do change in formula beacuse when two INT_MAX value contain start and end added then overflow conditio occur in calculation index becuase it is out of int range .
