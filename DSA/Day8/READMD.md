@@ -1,0 +1,2 @@
+today i prectice about problem of Peak Index mountain in which we used binary search which gives time complexity O(log n) instead of linear search which gives O(n).
+the approach is first find mid then check if it is equal to peak element index if yes then return otherwise check the left and right part beacuse array is increasing and decreading so preak element maybe greater than and lie in increaing slope or less than and lie in decreasing slope.
