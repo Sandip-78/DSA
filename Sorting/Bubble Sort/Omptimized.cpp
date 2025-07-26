@@ -3,20 +3,19 @@ using namespace std;
 
 void bubbleSort(int a[],int n){
 
-    for(int i=n-1;i>=1;i--){
-        int didswap = 0;
-        for(int j=0;j<=i-1;j++){
-            if(a[j] > a[j+1]){
-                int temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
-                didswap = 1;
-            }
+   for(int i=0;i<n-1;i++){
+    bool didSwap = false;
+    for(int j=0;j<n-i-1;j++){
+        if(a[j] > a[j+1]){
+            swap(a[j], a[j+1]);
+            didSwap = true;
         }
-        if(didswap == 0){
+    
+        if(didSwap == true){
             break;
         }
     }
+   }
     
 }
 
