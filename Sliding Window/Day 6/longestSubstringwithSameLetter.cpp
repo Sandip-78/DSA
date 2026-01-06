@@ -23,7 +23,7 @@ int main(){
         int diff = len - maxCount;
 
         while(diff>k){
-            count[s[low]]--;
+            count[s[low]]-=1;
             low++;
             len = high - low +1;
             maxCount = find(count);
