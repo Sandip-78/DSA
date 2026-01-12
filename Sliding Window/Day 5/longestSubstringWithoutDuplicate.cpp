@@ -13,7 +13,7 @@ int fun(string &v){
 
         int k = high - low +1;
         while(f.size()<k){
-            f[v[low]]++;
+            f[v[low]]--;
             if(f[v[low]] ==0){
                 f.erase(v[low]);
             }
