@@ -27,3 +27,6 @@ int main(){
     fun(vec,target);
     return 0;
 }
+
+// TC : O(nlogn)
+// SC : O(1)
